@@ -122,6 +122,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    height: 200px;
 
     &:hover {
       opacity: 0.5;
@@ -185,6 +186,10 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+.bio-image {
+  width: 250px;
+  height: 250px;
 }
 
 @import "mobile";

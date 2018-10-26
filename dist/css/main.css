@@ -53,8 +53,8 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
+      width: 576px;
+      height: 575px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
@@ -105,7 +105,7 @@ body {
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       right: 0;
@@ -187,7 +187,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    height: 200px; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
@@ -233,6 +234,10 @@ main {
   background: #2b2b2b;
   color: #fff;
   height: 60px; }
+
+.bio-image {
+  width: 250px;
+  height: 250px; }
 
 @media screen and (min-width: 1171px) {
   .projects {
